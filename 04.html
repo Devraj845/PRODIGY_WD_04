@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devraj Mahera | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #f9fbfd, #e6f0fa);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0077cc, #00aaff);
+      color: #fff;
+      padding: 80px 20px 40px;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      animation: slideIn 1s ease-in-out;
+    }
+    h1, h2 {
+      color: #0077cc;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      background: #ffffff;
+      margin: 8px 0;
+      padding: 10px 15px;
+      border-left: 5px solid #0077cc;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .project {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #0077cc;
+      color: #fff;
+      font-size: 14px;
+    }
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 768px) {
+      header img {
+        width: 120px;
+        height: 120px;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
+    @media (max-width: 480px) {
+      section {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Devraj Mahera</h1>
+    <p style="font-size: 1.2rem;">Software Developer | Passionate Coder | Tech Explorer</p>
+    <img src="profile-photo.jpg" alt="Devraj Mahera" />
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I'm a BCA student at GLS University (2022–2025) with a strong interest in software development. I enjoy working with Python, Java, C++, HTML, CSS, and Angular. I'm passionate about coding, problem-solving, and creating practical tech solutions. Apart from tech, I love music, content creation, and playing volleyball.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>BCA</strong> - GLS University (2022–2025)</li>
+      <li><strong>HSC</strong> - Navchetan High School(2021–2022)</li>
+      <li><strong>SSC</strong> - Navchetan High School (2019–2020)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills & Creative Interests</h2>
+    <ul>
+      <li>Core Programming: Python, Java, C++</li>
+      <li>Web Development: HTML, CSS, Angular</li>
+      <li>Backend & DB: Node.js, MySQL</li>
+      <li>Problem Solving & Team Collaboration</li>
+      <li>Volleyball Player</li>
+      <li>Singer & Music Producer</li>
+      <li>Songwriter (Beginner)</li>
+      <li>Video Shooting & Editing</li>
+      <li>Social Media Content Creation</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio site created to showcase my education, skills, and passion for development.</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+    </div>
+    <div class="project">
+      <h3>Wholeseller Retailer Gateway</h3>
+      <p>This project was developed as part of my BCA program. It is a B2B web application designed to connect wholesalers and retailers, helping startups streamline their distribution and sales networks.</p>
+      <p><strong>Technologies:</strong> Angular (Frontend), Node.js (Backend), MySQL (Database)</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: maheradevraj845@gmail.com | +91 6356446824</p>
+    <p>Ahmedabad, Gujarat, India</p>
+    <p><a href="http://www.linkedin.com/in/devraj-mahera-6a0879308">LinkedIn Profile</a></p>
+  </footer>
+</body>
+</html>
